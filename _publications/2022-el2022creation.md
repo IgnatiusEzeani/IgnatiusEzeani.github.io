@@ -1,0 +1,9 @@
+---
+title: "Creation of an Evaluation Corpus and Baseline Evaluation Scores for Welsh Text Summarisation"
+collection: publications
+permalink: /publication/2022-el2022creation
+date: 2022
+venue: 'None'
+citation: 'El-Haj, Mahmoud, Ezeani, Ignatius, Morris, Jonathan, Knight, Dawn (2022), Creation of an Evaluation Corpus and Baseline Evaluation Scores for Welsh Text Summarisation'
+---
+Recommended citation: El-Haj, Mahmoud, Ezeani, Ignatius, Morris, Jonathan, Knight, Dawn (2022), Creation of an Evaluation Corpus and Baseline Evaluation Scores for Welsh Text Summarisation

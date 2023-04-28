@@ -1,0 +1,9 @@
+---
+title: "ATM security using fingerprint biometric identifer: An investigative study"
+collection: publications
+permalink: /publication/2012-onyesolu2012atm
+date: 2012
+venue: 'International Journal of Advanced Computer science and applications'
+citation: 'Onyesolu, Moses Okechukwu, Ezeani, Ignatius Majesty (2012), ATM security using fingerprint biometric identifer: An investigative study'
+---
+Recommended citation: Onyesolu, Moses Okechukwu, Ezeani, Ignatius Majesty (2012), ATM security using fingerprint biometric identifer: An investigative study
