@@ -1,9 +1,0 @@
----
-title: "Igbo-english machine translation: An evaluation benchmark"
-collection: publications
-permalink: /publication/2020-ezeani2020igbo
-date: 2020
-venue: 'arXiv preprint arXiv:2004.00648'
-citation: 'Ezeani, Ignatius, Rayson, Paul, Onyenwe, Ikechukwu, Uchechukwu, Chinedu, Hepple, Mark (2020), Igbo-english machine translation: An evaluation benchmark'
----
-Recommended citation: Ezeani, Ignatius, Rayson, Paul, Onyenwe, Ikechukwu, Uchechukwu, Chinedu, Hepple, Mark (2020), Igbo-english machine translation: An evaluation benchmark
