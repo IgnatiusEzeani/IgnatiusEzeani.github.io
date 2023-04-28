@@ -6,4 +6,3 @@ date: 2013-01-01
 venue: 'International Journal Of Computational Engineering Research'
 citation: 'Eze, Fc, Adimonye, Fo, Nnanwa, Cp, Ezeani, Mi (2013), An Appropriate F-Test for Two-Way Balanced Interactive Model'
 ---
-Recommended citation: Eze, Fc, Adimonye, Fo, Nnanwa, Cp, Ezeani, Mi (2013), An Appropriate F-Test for Two-Way Balanced Interactive Model

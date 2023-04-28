@@ -4,6 +4,5 @@ collection: publications
 permalink: /publication/2010-01-01-ezeani2010heuristic
 date: 2010-01-01
 venue: 'Electroscope Journal'
-citation: 'Ezeani, Mi, Agbasi, Kc, Osita, Eg, Okonkwo, Ro, Nnanwa, Cp (2010), Heuristic Approaches to Solving MultiObjective Scheduling Optimisation Problems'
+citation: 'Ezeani, M I, Agbasi, KC, Osita, EG, Okonkwo, R O, Nnanwa, C P (2010), Heuristic Approaches to Solving MultiObjective Scheduling Optimisation Problems'
 ---
-Recommended citation: Ezeani, Mi, Agbasi, Kc, Osita, Eg, Okonkwo, Ro, Nnanwa, Cp (2010), Heuristic Approaches to Solving MultiObjective Scheduling Optimisation Problems
