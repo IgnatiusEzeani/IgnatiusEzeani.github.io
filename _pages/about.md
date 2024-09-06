@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello and thanks for stopping by. I am Ignatius, a computer scientist, an AI and NLP researcher and a [Senior Teaching and Research Associate](https://www.lancaster.ac.uk/scc/about-us/people/ignatius-ezeani) with the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/) at [Lancaster University, UK](https://www.lancaster.ac.uk/) as well as a visiting Senior Lecturer at [Nnamdi Azikiwe University, Nigeria](https://www.unizik.edu.ng/).
+Hello and thanks for stopping by. I am Ignatius, a computer scientist, an AI and NLP researcher and a [Research Fellow](https://www.lancaster.ac.uk/scc/about-us/people/ignatius-ezeani) with the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/) at [Lancaster University, UK](https://www.lancaster.ac.uk/) as well as a visiting Senior Lecturer at [Nnamdi Azikiwe University, Nigeria](https://www.unizik.edu.ng/).
 
 I have a Bachelor (1st) in Computer Science, a Masters in Advanced Software Engineering, and a PhD in Natural Language Processing (NLP). I am interested in the application of NLP techniques in building resources for low-resource languages especially African languages, but my interests span other related areas like <em>corpus linguistics</em>, <em>distributional semantics</em>, <em>information retrieval and extraction</em>, <em>machine learning</em>, <em>data science</em>, <em>deep neural models</em> and general AI.
 
