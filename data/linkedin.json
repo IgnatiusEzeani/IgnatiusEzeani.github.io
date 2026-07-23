@@ -1,0 +1,20 @@
+{
+  "_howto": "Add new items to the TOP of the list. 'date' is YYYY-MM-DD, 'text' is a one/two-sentence summary, 'url' is the link to the specific LinkedIn post (open the post, click the three dots, 'Copy link to post'). The page shows the newest 4.",
+  "items": [
+    {
+      "date": "2026-07-23",
+      "text": "New personal website is live — with publication data that now updates itself weekly.",
+      "url": "https://www.linkedin.com/in/ignatiusezeani"
+    },
+    {
+      "date": "2025-11-15",
+      "text": "Led AI governance sessions for 70 policymakers from 22 African nations at the OpenSchool Initiative.",
+      "url": "https://www.linkedin.com/in/ignatiusezeani"
+    },
+    {
+      "date": "2025-11-01",
+      "text": "Invited talk at the US Holocaust Memorial Museum, Washington DC, on the SpaceTimeNarratives testimony pipeline.",
+      "url": "https://www.linkedin.com/in/ignatiusezeani"
+    }
+  ]
+}

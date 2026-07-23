@@ -143,6 +143,12 @@ h2{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,3vw,2.05rem
 .feed h3{font-family:var(--body);font-size:1rem;font-weight:600;margin-bottom:10px}
 .feed p{font-size:.9rem;color:var(--mist);margin-bottom:14px}
 .feed .btn{font-size:.82rem;padding:9px 18px}
+.li-feed{list-style:none;margin-bottom:16px}
+.li-feed li{padding:10px 0;border-top:1px solid var(--line);font-size:.9rem;line-height:1.5}
+.li-feed li:first-child{border-top:none;padding-top:0}
+.li-feed .when{font-family:var(--mono);font-size:.72rem;color:var(--mist);display:block;margin-bottom:2px}
+.li-feed a{color:var(--ink)}
+.li-feed a:hover{color:var(--forest)}
 #x-timeline{min-height:0}
 
 /* ---------- footer ---------- */
@@ -345,7 +351,8 @@ footer h2{margin-bottom:14px}
       </div>
       <div class="feed">
         <h3>On LinkedIn</h3>
-        <p>LinkedIn doesn't expose a public feed API, so posts, tags, and mentions live on the profile itself — talks, project milestones, and community threads are shared there first.</p>
+        <ul class="li-feed" id="li-feed"></ul>
+        <p id="li-empty" hidden>Talks, project milestones, and community threads are shared on LinkedIn first.</p>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/ignatiusezeani" target="_blank" rel="noopener">View LinkedIn profile</a>
       </div>
     </div>
@@ -466,6 +473,26 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
     .then(function(r){if(!r.ok)throw 0;return r.json();})
     .then(function(d){render(d,d.updated?'live':'seed');})
     .catch(function(){render(FALLBACK,'seed');});
+})();
+
+/* ---------- LinkedIn highlights from data/linkedin.json ---------- */
+(function(){
+  var list=document.getElementById('li-feed'),empty=document.getElementById('li-empty');
+  function esc(s){var d=document.createElement('div');d.textContent=s==null?"":String(s);return d.innerHTML;}
+  fetch('data/linkedin.json',{cache:'no-store'})
+    .then(function(r){if(!r.ok)throw 0;return r.json();})
+    .then(function(d){
+      var items=(d.items||[]).slice(0,4);
+      if(!items.length)throw 0;
+      items.forEach(function(it){
+        var li=document.createElement('li');
+        var when=it.date?new Date(it.date+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):'';
+        li.innerHTML=(when?'<span class="when">'+esc(when)+'</span>':'')
+          +(it.url?'<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.text)+'</a>':esc(it.text));
+        list.appendChild(li);
+      });
+    })
+    .catch(function(){empty.hidden=false;});
 })();
 
 /* ---------- X timeline (graceful fallback) ---------- */
