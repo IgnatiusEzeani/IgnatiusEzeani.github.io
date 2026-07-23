@@ -1,0 +1,53 @@
+{
+  "updated": null,
+  "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
+  "metrics": {
+    "citations": null,
+    "h_index": null,
+    "i10_index": null
+  },
+  "publications": [
+    {
+      "title": "MasakhaNER: Named Entity Recognition for African Languages",
+      "authors": "Adelani, Abbott, Neubig, … Ezeani, et al.",
+      "venue": "Transactions of the ACL (TACL)",
+      "year": 2021,
+      "url": "https://doi.org/10.1162/tacl_a_00416"
+    },
+    {
+      "title": "Analysing Textual Geographies in the Spatial Humanities",
+      "authors": "Ezeani, Gregory, Rayson, et al.",
+      "venue": "Oxford Handbook of Spatial Humanities, OUP",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?user=flSvPiMAAAAJ"
+    },
+    {
+      "title": "Igbo-English Machine Translation: An Evaluation Benchmark",
+      "authors": "Ezeani, Rayson, Onyenwe, Chinedu, Hepple",
+      "venue": "AfricaNLP @ ICLR",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2004.00648"
+    },
+    {
+      "title": "Toward an Effective Igbo Part-of-Speech Tagger",
+      "authors": "Onyenwe, Hepple, Chinedu, Ezeani",
+      "venue": "ACM TALLIP 18(4)",
+      "year": 2019,
+      "url": "https://doi.org/10.1145/3314942"
+    },
+    {
+      "title": "Leveraging Pre-Trained Embeddings for Welsh Taggers",
+      "authors": "Ezeani, Piao, Neale, Rayson, Knight",
+      "venue": "RepL4NLP @ ACL",
+      "year": 2019,
+      "url": "https://aclanthology.org/W19-4332/"
+    },
+    {
+      "title": "Automatic Restoration of Diacritics for Igbo Language",
+      "authors": "Ezeani, Hepple, Onyenwe",
+      "venue": "Text, Speech, and Dialogue (TSD)",
+      "year": 2018,
+      "url": "https://scholar.google.com/citations?user=flSvPiMAAAAJ"
+    }
+  ]
+}
