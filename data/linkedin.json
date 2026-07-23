@@ -1,10 +1,17 @@
 {
-  "_howto": "Add new items to the TOP of the list. 'date' is YYYY-MM-DD, 'text' is a one/two-sentence summary, 'url' is the link to the specific LinkedIn post (open the post, click the three dots, 'Copy link to post'). The page shows the newest 4.",
+  "_howto": [
+    "Add new items to the TOP of the list; the page shows the newest 4.",
+    "TEXT-LINK ITEM: {date, text, url}. Get url from the post's ... menu > 'Copy link to post'.",
+    "EMBEDDED ITEM: add an 'embed' field. On the post: ... menu > 'Embed this post' > copy the code, then paste EITHER the iframe's src URL (starts with https://www.linkedin.com/embed/) OR just the urn:li:share:... / urn:li:activity:... part. Optional 'height' (default 400). Only public posts can be embedded.",
+    "Keep 'url' and 'text' on embedded items too — they become the fallback link if LinkedIn blocks the iframe for a visitor."
+  ],
   "items": [
     {
       "date": "2026-07-23",
-      "text": "New personal website is live — with publication data that now updates itself weekly.",
-      "url": "https://www.linkedin.com/in/ignatiusezeani"
+      "text": "#Urunana: Hand in hand, we shall build the African AI that solves African problems",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7366144138452291587/",
+      "embed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7366144138452291587?collapsed=1\" height=\"628\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
+      "height": 400
     },
     {
       "date": "2025-11-15",

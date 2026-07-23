@@ -149,6 +149,9 @@ h2{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,3vw,2.05rem
 .li-feed .when{font-family:var(--mono);font-size:.72rem;color:var(--mist);display:block;margin-bottom:2px}
 .li-feed a{color:var(--ink)}
 .li-feed a:hover{color:var(--forest)}
+.li-embed iframe{width:100%;border:1px solid var(--line);border-radius:8px;margin-top:6px;background:#fff}
+.li-embed-fb{display:block;font-size:.8rem;margin-top:6px;color:var(--mist)!important}
+.li-embed-fb:hover{color:var(--forest)!important}
 #x-timeline{min-height:0}
 
 /* ---------- footer ---------- */
@@ -170,7 +173,7 @@ footer h2{margin-bottom:14px}
 
 <nav>
   <div class="wrap nav-inner">
-    <a class="brand" href="#top">Dr. Ignatius M. Ezeani</a>
+    <a class="brand" href="#top">Dr Ignatius M. Ezeani</a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" onclick="toggleNav()">menu</button>
     <ul class="nav-links" id="nav-menu">
       <li><a href="#about">About</a></li>
@@ -300,7 +303,7 @@ footer h2{margin-bottom:14px}
     <p class="eyebrow">Publications</p>
     <h2>Selected &amp; recent work</h2>
     <ul class="pub-list" id="pub-list"><!-- populated by JS --></ul>
-    <p class="pub-foot"><a href="https://scholar.google.com/citations?user=flSvPiMAAAAJ" target="_blank" rel="noopener">Full list and citation counts on Google Scholar →</a></p>
+    <p class="pub-foot"><a href="https://scholar.google.com/citations?user=flSvPiMAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar →</a></p>
     <p class="sync-note" id="pub-src">// loading…</p>
   </div>
 </section>
@@ -479,6 +482,13 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
 (function(){
   var list=document.getElementById('li-feed'),empty=document.getElementById('li-empty');
   function esc(s){var d=document.createElement('div');d.textContent=s==null?"":String(s);return d.innerHTML;}
+  function embedSrc(v){
+    if(!v)return null;
+    v=String(v).trim();
+    if(v.indexOf('https://www.linkedin.com/embed/')===0)return v;         // full embed URL
+    if(v.indexOf('urn:li:')===0)return 'https://www.linkedin.com/embed/feed/update/'+v; // bare URN
+    return null;
+  }
   fetch('data/linkedin.json',{cache:'no-store'})
     .then(function(r){if(!r.ok)throw 0;return r.json();})
     .then(function(d){
@@ -487,8 +497,16 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
       items.forEach(function(it){
         var li=document.createElement('li');
         var when=it.date?new Date(it.date+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):'';
-        li.innerHTML=(when?'<span class="when">'+esc(when)+'</span>':'')
-          +(it.url?'<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.text)+'</a>':esc(it.text));
+        var src=embedSrc(it.embed);
+        if(src){
+          li.className='li-embed';
+          li.innerHTML=(when?'<span class="when">'+esc(when)+'</span>':'')
+            +'<iframe src="'+esc(src)+'" height="'+(parseInt(it.height,10)||400)+'" frameborder="0" allowfullscreen title="Embedded LinkedIn post" loading="lazy"></iframe>'
+            +(it.url?'<a class="li-embed-fb" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.text||'View this post on LinkedIn')+'</a>':'');
+        }else{
+          li.innerHTML=(when?'<span class="when">'+esc(when)+'</span>':'')
+            +(it.url?'<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.text)+'</a>':esc(it.text));
+        }
         list.appendChild(li);
       });
     })
