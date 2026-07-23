@@ -60,6 +60,13 @@ nav{position:sticky;top:0;z-index:50;background:rgba(245,247,243,.92);backdrop-f
 
 /* ---------- hero ---------- */
 header{padding:78px 0 64px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(220px,1fr);gap:48px;align-items:start}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.portrait-wrap{order:-1;max-width:240px}}
+.portrait-wrap{position:relative;margin-top:8px}
+.portrait{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--card);position:relative;z-index:1}
+.portrait-wrap::after{content:"";position:absolute;inset:14px -14px -14px 14px;border-radius:14px;background:var(--tint-per);border:1px solid var(--line);z-index:0}
+.portrait-fallback{display:none;width:100%;aspect-ratio:4/5;border-radius:14px;border:1px solid var(--line);background:var(--forest);color:var(--paper);font-family:var(--display);font-size:clamp(3rem,8vw,4.5rem);align-items:center;justify-content:center;position:relative;z-index:1}
+.portrait-caption{margin-top:22px;font-family:var(--mono);font-size:.72rem;color:var(--mist);text-align:right}
 .greet{font-family:var(--mono);font-size:.85rem;color:var(--ochre);letter-spacing:.06em;min-height:1.4em;display:block;margin-bottom:22px}
 .greet .lang-note{color:var(--mist)}
 h1{font-family:var(--display);font-weight:400;font-size:clamp(2rem,5vw,3.2rem);line-height:1.22;max-width:22ch;margin-bottom:26px}
@@ -172,7 +179,8 @@ footer h2{margin-bottom:14px}
 </nav>
 
 <header id="top">
-  <div class="wrap">
+  <div class="wrap hero-grid">
+    <div>
     <span class="greet" aria-live="off"><span id="greet-word">Nnọọ.</span> <span class="lang-note" id="greet-lang">// Igbo</span></span>
     <h1>Building language technology for the languages AI left behind.</h1>
 
@@ -199,6 +207,14 @@ footer h2{margin-bottom:14px}
       <a href="https://www.linkedin.com/in/ignatiusezeani" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://x.com/igezeani" target="_blank" rel="noopener">X&nbsp;/&nbsp;@igezeani</a>
       <a href="https://www.researchgate.net/profile/Ignatius-Ezeani-2" target="_blank" rel="noopener">ResearchGate</a>
+    </div>
+    </div>
+
+    <div class="portrait-wrap">
+      <img class="portrait" src="assets/profile.jpg" alt="Portrait of Dr Ignatius Ezeani"
+           onerror="this.style.display='none';document.getElementById('portrait-fallback').style.display='flex';">
+      <div class="portrait-fallback" id="portrait-fallback" role="img" aria-label="Monogram placeholder for Dr Ignatius Ezeani">IE</div>
+      <p class="portrait-caption">// UCREL, Lancaster · MSR Africa, Nairobi</p>
     </div>
   </div>
 </header>
