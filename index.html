@@ -211,7 +211,7 @@ footer h2{margin-bottom:14px}
     </div>
 
     <div class="portrait-wrap">
-      <img class="portrait" src="assets/profile.jpg" alt="Portrait of Dr Ignatius Ezeani"
+      <img class="portrait" src="assets/ignatius.png" alt="Portrait of Dr Ignatius Ezeani"
            onerror="this.style.display='none';document.getElementById('portrait-fallback').style.display='flex';">
       <div class="portrait-fallback" id="portrait-fallback" role="img" aria-label="Monogram placeholder for Dr Ignatius Ezeani">IE</div>
       <p class="portrait-caption">// UCREL, Lancaster · MSR Africa, Nairobi</p>
@@ -377,7 +377,7 @@ footer h2{margin-bottom:14px}
     </div>
     <div class="credit">
       <span>© <span id="year"></span> Ignatius M. Ezeani · UCREL, Lancaster University</span>
-      <span>publications sync weekly from Google Scholar</span>
+      <span>publication data syncs weekly via OpenAlex</span>
     </div>
   </div>
 </footer>
@@ -454,12 +454,13 @@ document.querySelectorAll('.nav-links a').forEach(function(a){
     if(m.h_index!=null)document.getElementById('stat-hindex').textContent=m.h_index;
     if(m.i10_index!=null)document.getElementById('stat-i10').textContent=m.i10_index;
     var when=data.updated?new Date(data.updated).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):null;
+    var name=data.source||'OpenAlex';
     document.getElementById('stat-src').textContent=src==='live'
-      ? '// synced from Google Scholar'+(when?' · '+when:'')
+      ? '// synced from '+name+(when?' · '+when:'')+' — see Google Scholar for canonical figures'
       : '// live metrics pending first sync — see Google Scholar for current figures';
     document.getElementById('pub-src').textContent=src==='live'
-      ? '// auto-updated weekly from Google Scholar'+(when?' · last sync '+when:'')
-      : '// showing curated list — automatic Scholar sync activates once the GitHub Action runs';
+      ? '// auto-updated weekly from '+name+(when?' · last sync '+when:'')
+      : '// showing curated list — automatic sync activates once the GitHub Action runs';
   }
   fetch('data/scholar.json',{cache:'no-store'})
     .then(function(r){if(!r.ok)throw 0;return r.json();})

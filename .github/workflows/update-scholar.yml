@@ -1,4 +1,4 @@
-name: Update Google Scholar data
+name: Update publication data
 
 on:
   schedule:
@@ -18,10 +18,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install scholarly
-
-      - name: Fetch Scholar profile
+      - name: Fetch publication data (OpenAlex / Semantic Scholar)
         run: python scripts/fetch_scholar.py
 
       - name: Commit updated data
@@ -32,6 +29,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: weekly Google Scholar sync"
+            git commit -m "chore: weekly publication data sync"
             git push
           fi
