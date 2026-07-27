@@ -1,84 +1,108 @@
 {
-  "updated": "2026-07-23T10:25:37.176143+00:00",
+  "updated": "2026-07-27T09:25:41.412131+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 1218,
-    "h_index": 14,
-    "i10_index": 20
+    "citations": 397,
+    "h_index": 7,
+    "i10_index": 7
   },
   "publications": [
     {
-      "title": "Participatory research for low-resourced machine translation: A case study in african languages",
-      "authors": "W Nekoto, V Marivate, T Matsila, Ignatius Ezeani et al.",
-      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2020",
-      "year": 2020,
-      "citations": 389,
-      "url": "https://aclanthology.org/2020.findings-emnlp.195.pdf"
+      "title": "Corpus-Based Approaches to Igbo Diacritic Restoration",
+      "authors": "Ignatius Ezeani",
+      "venue": "Lancaster EPrints (Lancaster University)",
+      "year": 2026,
+      "citations": 1,
+      "url": "https://doi.org/10.48550/arxiv.2601.18380"
+    },
+    {
+      "title": "FreeTxt: A corpus-based bilingual free-text survey and questionnaire data analysis toolkit",
+      "authors": "Dawn Knight, Nouran Khallaf, Paul Rayson, Mahmoud El‐Haj, Ignatius Ezeani, Steve Morris",
+      "venue": "Applied Corpus Linguistics",
+      "year": 2024,
+      "citations": 3,
+      "url": "https://doi.org/10.1016/j.acorp.2024.100103"
+    },
+    {
+      "title": "The IgboAPI Dataset: Empowering Igbo Language Technologies through Multi-dialectal Enrichment",
+      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://doi.org/10.48550/arxiv.2405.00997"
+    },
+    {
+      "title": "The IgboAPI Dataset: Empowering Igbo Language Technologies through Multi-dialectal Enrichment",
+      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
+      "venue": "",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://doi.org/10.63317/4vxnuknd9vmy"
+    },
+    {
+      "title": "Towards an Extensible Framework for Understanding Spatial Narratives",
+      "authors": "Ignatius Ezeani, Paul Rayson, Ian Gregory, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
+      "venue": "",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://doi.org/10.1145/3615887.3627761"
+    },
+    {
+      "title": "Spatio-Textual Regions: Extracting Sense of Place from Spatial Narratives",
+      "authors": "Erik Steiner, Zephyr Frank, Ian Gregory, David J. Bodenhamer, Ignatius Ezeani",
+      "venue": "Lancaster EPrints (Lancaster University)",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://doi.org/10.5281/zenodo.8286257"
+    },
+    {
+      "title": "MasakhaNER: Named entity recognition for African languages",
+      "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "year": 2021,
+      "citations": 51,
+      "url": "https://doi.org/10.1162/tacl"
     },
     {
       "title": "MasakhaNER: Named Entity Recognition for African Languages",
-      "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig,Ignatius Ezeani et al.",
+      "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 239,
-      "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00416/107614"
-    },
-    {
-      "title": "MasakhaNER 2.0: Africa-centric transfer learning for named entity recognition",
-      "authors": "David Ifeoluwa Adelani, Graham Neubig, Sebastian Ruder, et al.",
-      "venue": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-      "year": 2022,
-      "citations": 105,
-      "url": "https://aclanthology.org/2022.emnlp-main.298/"
-    },
-    {
-      "title": "ATM Security using Fingerprint Biometric Identifer: An Investigative Study",
-      "authors": "Moses O Onyesolu, Ignatius M Ezeani",
-      "venue": "International Journal of Advanced Computer science and applications",
-      "year": 2012,
-      "citations": 82,
-      "url": "https://www.academia.edu/download/86244636/38638acaa21bcabc9c3b517c43a780e444c2.pdf"
-    },
-    {
-      "title": "Digital Library Deployment in a University: Challenges and Prospects",
-      "authors": "Chinwe V Anunobi, Ignatius M Ezeani",
-      "venue": "Library Hi Tech - Emerald Group Publishing Limited",
-      "year": 2011,
-      "citations": 42,
-      "url": "https://www.academia.edu/download/37983194/07378831111138233.pdf"
+      "citations": 240,
+      "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
       "title": "Igbo-English Machine Translation: An Evaluation Benchmark",
       "authors": "Ignatius Ezeani, Paul Rayson, Ikechukwu Onyenwe, Chinedu Uchechukwu, Mark Hepple",
-      "venue": "1st AfricaNLP Workshop held on 26th April, ICLR 2020, (Virtual Conference), Addis Ababa Ethiopia",
+      "venue": "arXiv (Cornell University)",
       "year": 2020,
-      "citations": 33,
-      "url": "arXiv preprint arXiv:2004.00648"
+      "citations": 14,
+      "url": "https://doi.org/10.48550/arxiv.2004.00648"
     },
     {
-      "title": "AfriQA: Cross-Lingual Open-Retrieval Question Answering for African Languages",
-      "authors": "Odunayo Ogundepo, Tajuddeen R Gwadabe, Clara E Rivera, Ignatius Ezeani et al.",
-      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
-      "year": 2023,
-      "citations": 29,
-      "url": "https://aclanthology.org/2023.findings-emnlp.997.pdf"
-    },
-    {
-      "title": "Automatic Restoration of Diacritics for Igbo Language",
-      "authors": "Ignatius Ezeani, Mark Hepple, Ikechukwu Onyenwe",
-      "venue": "International Conference on Text, Speech, and Dialogue",
-      "year": 2016,
-      "citations": 28,
-      "url": "https://eprints.whiterose.ac.uk/id/eprint/117833/1/TSD_2016_Ezeani.pdf"
-    },
-    {
-      "title": "Corcencc: Corpws cenedlaethol cymraeg cyfoes–the national corpus of contemporary welsh",
-      "authors": "Knight, D., Morris, S., Fitzpatrick, T., Rayson, P., Ezeani, I. et al",
-      "venue": "Oxford Text Archive Core Collection, University of Oxford",
+      "title": "Infrastructure for Semantic Annotation in the Genomics Domain",
+      "authors": "Mahmoud El‐Haj, Nathan Rutherford, Matthew Coole, Ignatius Ezeani, Sheryl Prentice, Nancy Ide, et al.",
+      "venue": "Lancaster EPrints (Lancaster University)",
       "year": 2020,
-      "citations": 27,
-      "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2564/CorCenCC.pdf"
+      "citations": 1,
+      "url": "https://openalex.org/W3012132062"
+    },
+    {
+      "title": "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages",
+      "authors": "Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa, Taiwo Fagbohungbe, Solomon Oluwole Akinola, et al.",
+      "venue": "",
+      "year": 2020,
+      "citations": 15,
+      "url": "https://doi.org/10.18653/v1/2020.findings-emnlp.195"
+    },
+    {
+      "title": "Toward an Effective Igbo Part-of-Speech Tagger",
+      "authors": "Ikechukwu Onyenwe, Mark Hepple, Chinedu Uchechukwu, Ignatius Ezeani",
+      "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "year": 2019,
+      "citations": 10,
+      "url": "https://doi.org/10.1145/3314942"
     }
   ]
 }
