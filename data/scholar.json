@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-24T06:33:41.287265+00:00",
+  "updated": "2026-08-31T12:01:55.543939+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 400,
+    "citations": 404,
     "h_index": 7,
     "i10_index": 7
   },
@@ -69,7 +69,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "year": 2021,
-      "citations": 51,
+      "citations": 53,
       "url": "https://doi.org/10.1162/tacl"
     },
     {
@@ -77,7 +77,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 243,
+      "citations": 245,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
