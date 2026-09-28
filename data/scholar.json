@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-21T11:18:20.562960+00:00",
+  "updated": "2026-09-28T12:14:00.863346+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 405,
+    "citations": 576,
     "h_index": 7,
     "i10_index": 7
   },
@@ -17,8 +17,16 @@
       "url": "https://doi.org/10.48550/arxiv.2601.18380"
     },
     {
+      "title": "Front Matter",
+      "authors": "Mahmoud El‐Haj, Paul Rayson, Mustafa Jarrar, Ignatius Ezeani, Saad Ezzini, Sina Ahmadi, et al.",
+      "venue": "",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://doi.org/10.18653/v1/2026.abjadnlp-1.0"
+    },
+    {
       "title": "FreeTxt: Analyse and Visualise Multilingual Qualitative Survey Data for Cultural Heritage sites",
-      "authors": "Nouran Khallaf, Ignatius Ezeani, Dawn Knight, Paul Rayson, Mo El-Haj, John Vidler, et al.",
+      "authors": "Nouran Khallaf, Ignatius Ezeani, Dawn Knight, Paul Rayson, Mahmoud El‐Haj, John Edward Vidler, et al.",
       "venue": "International conference Recent advances in natural language processing",
       "year": 2025,
       "citations": 0,
@@ -50,7 +58,7 @@
     },
     {
       "title": "Towards an Extensible Framework for Understanding Spatial Narratives",
-      "authors": "Ignatius Ezeani, Paul Rayson, Ian Gregory, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
+      "authors": "Ignatius Ezeani, Paul Rayson, IAN N. GREGORY, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
       "venue": "",
       "year": 2023,
       "citations": 1,
@@ -58,11 +66,19 @@
     },
     {
       "title": "Spatio-Textual Regions: Extracting Sense of Place from Spatial Narratives",
-      "authors": "Erik Steiner, Zephyr Frank, Ian Gregory, David J. Bodenhamer, Ignatius Ezeani",
+      "authors": "Erik B. Steiner, Zephyr Frank, IAN N. GREGORY, David J. Bodenhamer, Ignatius Ezeani",
       "venue": "Lancaster EPrints (Lancaster University)",
       "year": 2023,
       "citations": 1,
       "url": "https://doi.org/10.5281/zenodo.8286257"
+    },
+    {
+      "title": "IgboBERT Models: Building and Training Transformer Models for the Igbo Language",
+      "authors": "Chiamaka Chukwuneke, Ignatius Ezeani, Paul Rayson, Mahmoud El‐Haj",
+      "venue": "",
+      "year": 2022,
+      "citations": 2,
+      "url": "https://doi.org/10.63317/43nkw689teaz"
     },
     {
       "title": "MasakhaNER: Named entity recognition for African languages",
@@ -77,7 +93,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 246,
+      "citations": 249,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
@@ -85,24 +101,8 @@
       "authors": "Ignatius Ezeani, Paul Rayson, Ikechukwu Onyenwe, Chinedu Uchechukwu, Mark Hepple",
       "venue": "arXiv (Cornell University)",
       "year": 2020,
-      "citations": 14,
+      "citations": 13,
       "url": "https://doi.org/10.48550/arxiv.2004.00648"
-    },
-    {
-      "title": "Infrastructure for Semantic Annotation in the Genomics Domain",
-      "authors": "Mahmoud El‐Haj, Nathan Rutherford, Matthew Coole, Ignatius Ezeani, Sheryl Prentice, Nancy Ide, et al.",
-      "venue": "Lancaster EPrints (Lancaster University)",
-      "year": 2020,
-      "citations": 1,
-      "url": "https://openalex.org/W3012132062"
-    },
-    {
-      "title": "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages",
-      "authors": "Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa, Taiwo Fagbohungbe, Solomon Oluwole Akinola, et al.",
-      "venue": "",
-      "year": 2020,
-      "citations": 15,
-      "url": "https://doi.org/10.18653/v1/2020.findings-emnlp.195"
     }
   ]
 }
