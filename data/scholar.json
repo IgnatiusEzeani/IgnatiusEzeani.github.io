@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T12:14:00.863346+00:00",
+  "updated": "2026-10-05T12:54:02.166910+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 576,
+    "citations": 583,
     "h_index": 7,
     "i10_index": 7
   },
@@ -51,7 +51,7 @@
     {
       "title": "The IgboAPI Dataset: Empowering Igbo Language Technologies through Multi-dialectal Enrichment",
       "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
-      "venue": "",
+      "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2024,
       "citations": 0,
       "url": "https://doi.org/10.63317/4vxnuknd9vmy"
@@ -75,7 +75,7 @@
     {
       "title": "IgboBERT Models: Building and Training Transformer Models for the Igbo Language",
       "authors": "Chiamaka Chukwuneke, Ignatius Ezeani, Paul Rayson, Mahmoud El‐Haj",
-      "venue": "",
+      "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2022,
       "citations": 2,
       "url": "https://doi.org/10.63317/43nkw689teaz"
@@ -93,7 +93,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 249,
+      "citations": 255,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
