@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T12:54:02.166910+00:00",
+  "updated": "2026-10-12T13:46:00.244271+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
@@ -70,7 +70,7 @@
       "venue": "Lancaster EPrints (Lancaster University)",
       "year": 2023,
       "citations": 1,
-      "url": "https://doi.org/10.5281/zenodo.8286257"
+      "url": "https://doi.org/10.5281/zenodo.8286256"
     },
     {
       "title": "IgboBERT Models: Building and Training Transformer Models for the Igbo Language",
