@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-12T13:46:00.244271+00:00",
+  "updated": "2026-10-19T11:27:00.866158+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 583,
+    "citations": 607,
     "h_index": 7,
     "i10_index": 7
   },
@@ -42,7 +42,7 @@
     },
     {
       "title": "The IgboAPI Dataset: Empowering Igbo Language Technologies through Multi-dialectal Enrichment",
-      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
+      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Ijeoma Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
       "venue": "arXiv (Cornell University)",
       "year": 2024,
       "citations": 0,
@@ -50,7 +50,7 @@
     },
     {
       "title": "The IgboAPI Dataset: Empowering Igbo Language Technologies through Multi-dialectal Enrichment",
-      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
+      "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Ijeoma Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
       "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2024,
       "citations": 0,
@@ -74,7 +74,7 @@
     },
     {
       "title": "IgboBERT Models: Building and Training Transformer Models for the Igbo Language",
-      "authors": "Chiamaka Chukwuneke, Ignatius Ezeani, Paul Rayson, Mahmoud El‐Haj",
+      "authors": "Chiamaka Ijeoma Chukwuneke, Ignatius Ezeani, Paul Rayson, Mahmoud El‐Haj",
       "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2022,
       "citations": 2,
@@ -85,7 +85,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
       "year": 2021,
-      "citations": 53,
+      "citations": 61,
       "url": "https://doi.org/10.1162/tacl"
     },
     {
@@ -93,7 +93,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 255,
+      "citations": 258,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
