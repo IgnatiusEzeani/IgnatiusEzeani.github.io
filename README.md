@@ -1,6 +1,6 @@
 # ignatiusezeani.github.io
 
-Personal academic website of **Dr Ignatius M. Ezeani** — Research Fellow at the UCREL Research Centre, Lancaster University, and Visiting Researcher at Microsoft Research Lab Africa. Research in NLP for low-resource and African languages, cross-lingual model adaptation, and digital & spatial humanities.
+Personal academic website of **Dr Ignatius M. Ezeani** - Research Fellow at the UCREL Research Centre, Lancaster University, and Visiting Researcher at Microsoft Research Lab Africa. Research in NLP for low-resource and African languages, cross-lingual model adaptation, and digital & spatial humanities.
 
 **Live site:** https://ignatiusezeani.github.io/
 
