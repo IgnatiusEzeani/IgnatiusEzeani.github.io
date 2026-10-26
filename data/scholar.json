@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T11:27:00.866158+00:00",
+  "updated": "2026-10-26T11:45:39.033115+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
@@ -83,7 +83,7 @@
     {
       "title": "MasakhaNER: Named entity recognition for African languages",
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
-      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "venue": "HAL",
       "year": 2021,
       "citations": 61,
       "url": "https://doi.org/10.1162/tacl"
