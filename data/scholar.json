@@ -1,13 +1,21 @@
 {
-  "updated": "2026-10-26T11:45:39.033115+00:00",
+  "updated": "2026-11-02T14:02:04.830064+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 607,
+    "citations": 605,
     "h_index": 7,
     "i10_index": 7
   },
   "publications": [
+    {
+      "title": "How Architecture, Typology, and Adaptation Strategies Shape ASR for Low-Resource African Languages: A Controlled Empirical Study",
+      "authors": "Mercy Muchai, Kevin Chege, Nick Mumero Mwangi, Samuel Chege Maina, Felermino Ali, Elizabeth A. Ankrah, et al.",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://doi.org/10.48550/arxiv.2610.39004"
+    },
     {
       "title": "Corpus-Based Approaches to Igbo Diacritic Restoration",
       "authors": "Ignatius Ezeani",
@@ -19,7 +27,7 @@
     {
       "title": "Front Matter",
       "authors": "Mahmoud El‐Haj, Paul Rayson, Mustafa Jarrar, Ignatius Ezeani, Saad Ezzini, Sina Ahmadi, et al.",
-      "venue": "",
+      "venue": "Workshop on NLP for Languages Using Arabic Script (AbjadNLP)",
       "year": 2026,
       "citations": 0,
       "url": "https://doi.org/10.18653/v1/2026.abjadnlp-1.0"
@@ -59,7 +67,7 @@
     {
       "title": "Towards an Extensible Framework for Understanding Spatial Narratives",
       "authors": "Ignatius Ezeani, Paul Rayson, IAN N. GREGORY, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
-      "venue": "",
+      "venue": "ACM SIGSPATIAL International Workshop on Geospatial Humanities (GeoHumanities)",
       "year": 2023,
       "citations": 1,
       "url": "https://doi.org/10.1145/3615887.3627761"
@@ -95,14 +103,6 @@
       "year": 2021,
       "citations": 258,
       "url": "https://doi.org/10.1162/tacl_a_00416"
-    },
-    {
-      "title": "Igbo-English Machine Translation: An Evaluation Benchmark",
-      "authors": "Ignatius Ezeani, Paul Rayson, Ikechukwu Onyenwe, Chinedu Uchechukwu, Mark Hepple",
-      "venue": "arXiv (Cornell University)",
-      "year": 2020,
-      "citations": 13,
-      "url": "https://doi.org/10.48550/arxiv.2004.00648"
     }
   ]
 }
