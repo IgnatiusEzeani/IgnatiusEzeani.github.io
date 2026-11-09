@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-02T14:02:04.830064+00:00",
+  "updated": "2026-11-09T14:35:16.727205+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 605,
-    "h_index": 7,
+    "citations": 884,
+    "h_index": 8,
     "i10_index": 7
   },
   "publications": [
@@ -45,7 +45,7 @@
       "authors": "Dawn Knight, Nouran Khallaf, Paul Rayson, Mahmoud El‐Haj, Ignatius Ezeani, Steve Morris",
       "venue": "Applied Corpus Linguistics",
       "year": 2024,
-      "citations": 3,
+      "citations": 6,
       "url": "https://doi.org/10.1016/j.acorp.2024.100103"
     },
     {
@@ -53,7 +53,7 @@
       "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Ijeoma Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
       "venue": "arXiv (Cornell University)",
       "year": 2024,
-      "citations": 0,
+      "citations": 1,
       "url": "https://doi.org/10.48550/arxiv.2405.00997"
     },
     {
@@ -69,7 +69,7 @@
       "authors": "Ignatius Ezeani, Paul Rayson, IAN N. GREGORY, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
       "venue": "ACM SIGSPATIAL International Workshop on Geospatial Humanities (GeoHumanities)",
       "year": 2023,
-      "citations": 1,
+      "citations": 5,
       "url": "https://doi.org/10.1145/3615887.3627761"
     },
     {
@@ -77,7 +77,7 @@
       "authors": "Erik B. Steiner, Zephyr Frank, IAN N. GREGORY, David J. Bodenhamer, Ignatius Ezeani",
       "venue": "Lancaster EPrints (Lancaster University)",
       "year": 2023,
-      "citations": 1,
+      "citations": 2,
       "url": "https://doi.org/10.5281/zenodo.8286256"
     },
     {
@@ -93,7 +93,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "HAL",
       "year": 2021,
-      "citations": 61,
+      "citations": 169,
       "url": "https://doi.org/10.1162/tacl"
     },
     {
@@ -101,7 +101,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 258,
+      "citations": 292,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     }
   ]
