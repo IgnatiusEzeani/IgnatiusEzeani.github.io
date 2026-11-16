@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-09T14:35:16.727205+00:00",
+  "updated": "2026-11-16T14:10:26.466594+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 884,
+    "citations": 931,
     "h_index": 8,
     "i10_index": 7
   },
@@ -69,7 +69,7 @@
       "authors": "Ignatius Ezeani, Paul Rayson, IAN N. GREGORY, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
       "venue": "ACM SIGSPATIAL International Workshop on Geospatial Humanities (GeoHumanities)",
       "year": 2023,
-      "citations": 5,
+      "citations": 6,
       "url": "https://doi.org/10.1145/3615887.3627761"
     },
     {
@@ -85,24 +85,24 @@
       "authors": "Chiamaka Ijeoma Chukwuneke, Ignatius Ezeani, Paul Rayson, Mahmoud El‐Haj",
       "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2022,
-      "citations": 2,
+      "citations": 11,
       "url": "https://doi.org/10.63317/43nkw689teaz"
-    },
-    {
-      "title": "MasakhaNER: Named entity recognition for African languages",
-      "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
-      "venue": "HAL",
-      "year": 2021,
-      "citations": 169,
-      "url": "https://doi.org/10.1162/tacl"
     },
     {
       "title": "MasakhaNER: Named Entity Recognition for African Languages",
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 292,
+      "citations": 294,
       "url": "https://doi.org/10.1162/tacl_a_00416"
+    },
+    {
+      "title": "MasakhaNER: Named entity recognition for African languages",
+      "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
+      "venue": "HAL",
+      "year": 2021,
+      "citations": 197,
+      "url": "https://doi.org/10.1162/tacl"
     }
   ]
 }
