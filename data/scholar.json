@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-16T14:10:26.466594+00:00",
+  "updated": "2026-11-23T16:43:30.934580+00:00",
   "source": "OpenAlex",
   "profile": "https://scholar.google.com/citations?user=flSvPiMAAAAJ",
   "metrics": {
-    "citations": 931,
-    "h_index": 8,
-    "i10_index": 7
+    "citations": 1430,
+    "h_index": 11,
+    "i10_index": 15
   },
   "publications": [
     {
@@ -21,16 +21,8 @@
       "authors": "Ignatius Ezeani",
       "venue": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
       "year": 2026,
-      "citations": 1,
+      "citations": 2,
       "url": "https://doi.org/10.48550/arxiv.2601.18380"
-    },
-    {
-      "title": "Front Matter",
-      "authors": "Mahmoud El‐Haj, Paul Rayson, Mustafa Jarrar, Ignatius Ezeani, Saad Ezzini, Sina Ahmadi, et al.",
-      "venue": "Workshop on NLP for Languages Using Arabic Script (AbjadNLP)",
-      "year": 2026,
-      "citations": 0,
-      "url": "https://doi.org/10.18653/v1/2026.abjadnlp-1.0"
     },
     {
       "title": "FreeTxt: Analyse and Visualise Multilingual Qualitative Survey Data for Cultural Heritage sites",
@@ -45,7 +37,7 @@
       "authors": "Dawn Knight, Nouran Khallaf, Paul Rayson, Mahmoud El‐Haj, Ignatius Ezeani, Steve Morris",
       "venue": "Applied Corpus Linguistics",
       "year": 2024,
-      "citations": 6,
+      "citations": 11,
       "url": "https://doi.org/10.1016/j.acorp.2024.100103"
     },
     {
@@ -61,7 +53,7 @@
       "authors": "Chris Chinenye Emezue, Ifeoma Okoh, Chinedu Emmanuel Mbonu, Chiamaka Ijeoma Chukwuneke, Daisy Monika Lal, Ignatius Ezeani, et al.",
       "venue": "Language Resources and Evaluation Conference (LREC)",
       "year": 2024,
-      "citations": 0,
+      "citations": 4,
       "url": "https://doi.org/10.63317/4vxnuknd9vmy"
     },
     {
@@ -69,7 +61,7 @@
       "authors": "Ignatius Ezeani, Paul Rayson, IAN N. GREGORY, Erum Haris, Anthony G. Cohn, John G. Stell, et al.",
       "venue": "ACM SIGSPATIAL International Workshop on Geospatial Humanities (GeoHumanities)",
       "year": 2023,
-      "citations": 6,
+      "citations": 10,
       "url": "https://doi.org/10.1145/3615887.3627761"
     },
     {
@@ -77,7 +69,7 @@
       "authors": "Erik B. Steiner, Zephyr Frank, IAN N. GREGORY, David J. Bodenhamer, Ignatius Ezeani",
       "venue": "Lancaster EPrints (Lancaster University)",
       "year": 2023,
-      "citations": 2,
+      "citations": 4,
       "url": "https://doi.org/10.5281/zenodo.8286256"
     },
     {
@@ -93,7 +85,7 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "Transactions of the Association for Computational Linguistics",
       "year": 2021,
-      "citations": 294,
+      "citations": 428,
       "url": "https://doi.org/10.1162/tacl_a_00416"
     },
     {
@@ -101,8 +93,16 @@
       "authors": "David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, et al.",
       "venue": "HAL",
       "year": 2021,
-      "citations": 197,
+      "citations": 210,
       "url": "https://doi.org/10.1162/tacl"
+    },
+    {
+      "title": "Igbo-English Machine Translation: An Evaluation Benchmark",
+      "authors": "Ignatius Ezeani, Paul Rayson, Ikechukwu Onyenwe, Chinedu Uchechukwu, Mark Hepple",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020,
+      "citations": 42,
+      "url": "https://doi.org/10.48550/arxiv.2004.00648"
     }
   ]
 }
